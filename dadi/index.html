@@ -9,8 +9,26 @@
 
     <title>Dadi</title>
 </head>
-<body>
-   
+<body class="bg-secondary text-white">
+
+    <div class="container vh-100">
+        <div class="row h-100">
+            <div class="col-12 d-flex flex-column align-items-start justify-content-center align-items-center"><h1>Giochiamo a DADI</h1></div>
+            <div class="col-6 d-flex flex-column align-items-start justify-content-start align-items-center fs-3">
+                <button type="button" class="btn btn-light">Lancia i Dadi</button>
+                <span>Ti è uscito il numero: </span>
+                <span id=" user-toss-result"> 23</span>
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start justify-content-start align-items-center fs-3">
+                <p >Al computer è uscito il numero:</p>
+                <p id="computer-toss-result">15</p>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-start justify-content-center align-items-center fs-1">
+                <p id="winner">hai perso</p>
+            </div>
+        </div>
+    </div>
+    
     
     <script src="js/script.js"></script>
 </body>
